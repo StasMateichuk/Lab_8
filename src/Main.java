@@ -39,7 +39,7 @@ public class Main {
     private void executeFirstTask() {
         Task_1 numberWriter = new Task_1();
 
-        System.out.println("Введіть назву файлу: ");
+        System.out.println("\nВведіть назву файлу: ");
         String fileName = scanner.nextLine();
 
         System.out.println("Введіть мінімальне значення (x): ");
@@ -57,7 +57,7 @@ public class Main {
     }
 
     private void displayHelp() {
-        System.out.println("Якщо ви напишете '1' ви получите доступ до завдання.");
+        System.out.println("\nЯкщо ви напишете '1' ви получите доступ до завдання.");
         System.out.println("Якщо ви введете '2' вас перекине у вікно допомоги ще раз.");
     }
 }
